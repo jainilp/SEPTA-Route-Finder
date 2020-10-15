@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+#message {
+    color: red;
+}
+
+#late {
+    color: red;
+}
+
+#early {
+    color: yellow;
+}
+
+#ontime {
+    color: green;
+}
+
+body {
+    background-color: black;
+    color: white;
+}

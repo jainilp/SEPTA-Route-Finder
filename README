@@ -1,0 +1,15 @@
+Developer: Jainil Patel
+Purpose: Display route information for one of the valid SEPTA bus routes.
+Use Cases:
+
+Start the node server, run the following command in the correct directory, which should include the public directory and the server.js file. 
+	node server.js
+
+Go to localhost:8080
+
+Choose a valid route from the dropdown menu:
+	Dropdown options include Routes: 6, 14, 17, 20, 23
+
+Click Submit
+
+The results will be displayed accordingly, with the direction, destination, and on time/delay/early. If the buf is ontime, the message will be green, if its late the message will be red, if its early the message will be yellow.
